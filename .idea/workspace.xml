@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba359eeb-8ab0-40f9-bec7-787626d5e843" name="Default Changelist" comment="" />
+    <list default="true" id="ba359eeb-8ab0-40f9-bec7-787626d5e843" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/skudla/Bankingsysem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/skudla/CreditBelowThresholdException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/skudla/CreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/skudla/NotEnoughMoney.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/skudla/WithdrawRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/skudla/BlaBlaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/skudla/CreditCardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/creditcard.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/skudla/Greeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/skudla/greeter/Greeter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/skudla/GreeterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/skudla/greeter/GreeterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/skudla/charcount/CharCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/skudla/charcount/CharCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/creditcard.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/skudla/Greeter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/skudla/GreeterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/skudla/charcount/CharCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/skudla/charcount/CharCounter.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,9 +32,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -28,7 +50,10 @@
   </component>
   <component name="ProjectId" id="1zrOAhMSQWbrpuvZjyO9kYroBGx" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -36,8 +61,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="pl.skudla.charcount" />
       <recent name="pl.skudla" />
+      <recent name="pl.skudla.charcount" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -52,15 +77,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.char_counter_test">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="App" />
-      <module name="creditcard" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GreeterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CreditCardTest">
+    <configuration name="CreditCardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="creditcard" />
       <extension name="coverage">
         <pattern>
@@ -69,7 +87,38 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pl.skudla" />
-      <option name="MAIN_CLASS_NAME" value="pl.skudla.GreeterTest" />
+      <option name="MAIN_CLASS_NAME" value="pl.skudla.CreditCardTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreditCardTest.itAllowsAssayingCreditLimitToCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="creditcard" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.skudla.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.skudla" />
+      <option name="MAIN_CLASS_NAME" value="pl.skudla.CreditCardTest" />
+      <option name="METHOD_NAME" value="itAllowsAssayingCreditLimitToCard" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GreeterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="creditcard" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.skudla.greeter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.skudla.greeter" />
+      <option name="MAIN_CLASS_NAME" value="pl.skudla.greeter.GreeterTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,11 +139,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="char_counter_test.it_counts_chars_in_input_string" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="creditcard" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.skudla.charcount.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.skudla.charcount" />
+      <option name="MAIN_CLASS_NAME" value="pl.skudla.charcount.char_counter_test" />
+      <option name="METHOD_NAME" value="it_counts_chars_in_input_string" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CreditCardTest" />
+        <item itemvalue="JUnit.CreditCardTest.itAllowsAssayingCreditLimitToCard" />
+        <item itemvalue="JUnit.char_counter_test.it_counts_chars_in_input_string" />
         <item itemvalue="JUnit.char_counter_test" />
         <item itemvalue="JUnit.GreeterTest" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -110,5 +177,16 @@
       <updated>1634902599277</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

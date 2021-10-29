@@ -1,6 +1,8 @@
-package pl.skudla;
+package pl.skudla.greeter;
 
 import org.junit.jupiter.api.Test;
+import pl.skudla.greeter.Greeter;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class GreeterTest {

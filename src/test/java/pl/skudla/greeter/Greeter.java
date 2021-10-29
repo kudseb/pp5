@@ -1,4 +1,4 @@
-package pl.skudla;
+package pl.skudla.greeter;
 
 public class Greeter {
     public String hello(String input_name) {

@@ -5,7 +5,7 @@ public class CharCounter {
         return (int) input_str
                 .toLowerCase()
                 .chars()
-                .filter(c -> c == )
+                .filter(c -> c == char_to_be_counted )
                 .count();
 
     }
